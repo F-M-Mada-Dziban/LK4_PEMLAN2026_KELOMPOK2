@@ -17,7 +17,7 @@ public class MainBank {
             System.out.println("Status Keamanan : VALID");
             System.out.println("ID Server       : " + ProtokolKeamanan.ID_SERVER);
 
-            System.out.println("\n----------- PROSES TRANSAKSI -----------");
+            System.out.println("\n---------- INFORMASI REKENING ------------");
             rekening.autentikasiDigital("9876");
             rekening.konversiMataUang(15000);
             rekening.prosesTransaksi(200000);
